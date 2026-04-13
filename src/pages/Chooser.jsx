@@ -36,154 +36,154 @@ const Chooser = ({subPage, setContinent, mode, gray, blur, updateGray, updateBlu
         "━━━━━━━━━━━━━━━━━ Nordamerika ━━━━━━━━━━━━━━━━━": [
             {
                 text: () => mode === "flag" ? "No Data" : t("antiguaandbarbuda"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/1280px-Flag_of_Antigua_and_Barbuda.svg.png",
+                image: "https://i.ibb.co/gZjG0wM5/Flag-of-Antigua-and-Barbuda-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("antiguaundbarbuda"),
                 className: () => (mode === "flag" ? "red" : "") + " domrep",
                 searches: ["antiguaundbarbuda","antiguaandbarbuda"]
             },
             {
                 text: () =>  mode === "capital" || mode === "flag" ? "No Data" : t("bahamas"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/1920px-Flag_of_the_Bahamas.svg.png",
+                image: "https://i.ibb.co/k6SY1cdX/Flag-of-the-Bahamas-svg.png",
                 onClick: () => mode === "capital" || mode === "flag" ? "" : switchC("bahamas"),
                 className: () => mode === "capital" || mode === "flag" ? "red" : "",
                 searches: ["bahamas"]
             },
      {
                 text: () => mode === "flag" ? "No Data" : t("barbados"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/1280px-Flag_of_Barbados.svg.png",
+                image: "https://i.ibb.co/QvRzVVLb/Flag-of-Barbados-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("barbados"),
                 className: () => mode === "flag" ? "red" : "",
                 searches: ["barbados"]
             },
      {
                 text: () => mode === "flag" ? "No Data" : t("belize"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/1024px-Flag_of_Belize.svg.png",
+                image: "https://i.ibb.co/yFCTVDtJ/Flag-of-Belize-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("belize"),
                 className: () => mode === "flag" ? "red" : "",
                 searches: ["belize"]
             },
      {
                 text: () => t("costarica"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/1024px-Flag_of_Costa_Rica.svg.png",
+                image: "https://i.ibb.co/9CXXzgd/Flag-of-Costa-Rica-svg.png",
                 onClick: () => switchC("costarica"),
                 searches: ["costarica",]
             },
      {
                 text: () => mode === "flag" ? "No Data" : t("dominica"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/1920px-Flag_of_Dominica.svg.png",
+                image: "https://i.ibb.co/W4xc5bqQ/Flag-of-Dominica-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("dominica"),
                 className: () => mode === "flag" ? "red" : "",
                 searches: ["dominica"]
             },
      {
                 text: () => mode === "flag" ? "No Data" : t("dominicanrepublic"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/1280px-Flag_of_the_Dominican_Republic.svg.png",
+                image: "https://i.ibb.co/MDH5Zc23/Flag-of-the-Dominican-Republic-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("dominikanischerepublik"),
          className: () => mode === "flag" ? "red" : "domrep",
                 searches: ["dominikanischerepublik","dominicanrepublic"]
             },
  {
                 text: () => t("elsalvador"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/1024px-Flag_of_El_Salvador.svg.png",
+                image: "https://i.ibb.co/MyndcGjx/Flag-of-El-Salvador-svg.png",
                 onClick: () => switchC("elsalvador"),
                 searches: ["elsalvador"]
             },
  {
                 text: () => mode === "flag" ? "No Data" : t("grenada"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/1920px-Flag_of_Grenada.svg.png",
+                image: "https://i.ibb.co/s9MFDGYG/Flag-of-Grenada-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("grenada"),
                 className: () => mode === "flag" ? "red" : "",
                 searches: ["grenada"]
             },
  {
                 text: () => t("guatemala"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/1024px-Flag_of_Guatemala.svg.png",
+                image: "https://i.ibb.co/m5CGnFVZ/Flag-of-Guatemala-svg.png",
                 onClick: () => switchC("guatemala"),
                 className: () => mode === "" ? "red" : "",
                 searches: ["guatemala"]
             },
  {
                 text: () => mode === "flag" ? "No Data" : t("haiti"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/1920px-Flag_of_Haiti.svg.png",
+                image: "https://i.ibb.co/RksYrf4V/Flag-of-Haiti-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("haiti"),
                 className: () => mode === "flag" ? "red" : "",
                 searches: ["haiti"]
             },
  {
                 text: () => t("honduras"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/1024px-Flag_of_Honduras.svg.png",
+                image: "https://i.ibb.co/mV4Bxc8F/Flag-of-Honduras-1949-2022-2026-present-svg.png",
                 onClick: () => mode === "" ? "" : switchC("honduras"),
                 searches: ["honduras"]
             },
  {
                 text: () => mode === "flag" ? "No Data" : t("jamaica"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/1024px-Flag_of_Jamaica.svg.png",
+                image: "https://i.ibb.co/3YzF4tmT/Flag-of-Jamaica-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("jamaika"),
                 className: () => mode === "flag" ? "red" : "",
                 searches: ["jamaika","jamaica"]
             },
  {
                 text: () => t("canada"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1920px-Flag_of_Canada_%28Pantone%29.svg.png",
+                image: "https://i.ibb.co/zVyN24Z7/Flag-of-Canada-Pantone-svg.png",
                 onClick: () => switchC("kanada"),
                 searches: ["kanada","canada"]
             },
  {
                 text: () => mode === "flag" ? "No Data" : t("cuba"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/1920px-Flag_of_Cuba.svg.png",
+                image: "https://i.ibb.co/ksHMRfTh/Flag-of-Cuba-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("kuba"),
                 className: () => mode === "flag" ? "red" : "",
                 searches: ["kuba","cuba"]
             },
  {
                 text: () => t("mexico"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1024px-Flag_of_Mexico.svg.png",
+                image: "https://i.ibb.co/q3dvmJNJ/Flag-of-Mexico-svg.png",
                 onClick: () => switchC("mexiko"),
                 searches: ["mexiko","mexico"]
             },
  {
                 text: () => t("nicaragua"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/1024px-Flag_of_Nicaragua.svg.png",
+                image: "https://i.ibb.co/C5jgwjYM/Flag-of-Nicaragua-svg.png",
                 onClick: () => switchC("nicaragua"),
                 searches: ["nicaragua"]
             },
  {
                 text: () => t("panama"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1024px-Flag_of_Panama.svg.png",
+                image: "https://i.ibb.co/nMgbRdLn/Flag-of-Panama-svg.png",
                 onClick: () => switchC("panama"),
                 searches: ["panama"]
             },
  {
                 text: () => mode === "flag" ? "No Data" : t("stkittsandnevis"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/1024px-Flag_of_Saint_Kitts_and_Nevis.svg.png",
+                image: "https://i.ibb.co/RGTJ8PVb/Flag-of-Saint-Kitts-and-Nevis-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("stkittsundnevis"),
                 className: () => mode === "flag" ? "red" : "domrep2",
                 searches: ["stkittsandnevis","stkittsundnevis","sainttkittsundnevis","sainttkittsandnevis"]
             },
  {
                 text: () => mode === "flag" ? "No Data" : t("stlucia"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/1024px-Flag_of_Saint_Lucia.svg.png",
+                image: "https://i.ibb.co/zHCnZBvN/Flag-of-Saint-Lucia-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("stlucia"),
                 className: () => mode === "flag" ? "red" : "",
                 searches: ["stlucia","saintlucia"]
             },
  {
                 text: () => mode === "flag" ? "No Data" : t("stvincentandthegrenadines"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/1024px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png",
+                image: "https://i.ibb.co/XfSJqSkN/Flag-of-Saint-Vincent-and-the-Grenadines-svg.png",
                 onClick: () => mode === "flag" ? "" : switchC("stvincentunddiegrenadinen"),
                 className: () => mode === "flag" ? "red" : "domrep2",
                 searches: ["stvincentandthegrenadines","saintvincentandthegrenadines","stvincentunddiegrenadinen","saintvincentunddiegrenadinen"]
             },
             {
                 text: () => t("trinidadandtobago"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/1920px-Flag_of_Trinidad_and_Tobago.svg.png",
+                image: "https://i.ibb.co/MDJ8by8N/Flag-of-Trinidad-and-Tobago-svg.png",
                 onClick: () => switchC("trinidadundtobago"),
                 className: () => "domrep",
                 searches: ["trinidadundtobago","trinidadandtobago"]
             },
             {
                 text: () => t("usa"),
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flag_of_the_United_States_%281863-1865%29.svg/2560px-Flag_of_the_United_States_%281863-1865%29.svg.png",
+                image: "https://i.ibb.co/B5yhMWvp/1920px-Flag-of-the-United-States-Pantone-svg.png",
                 onClick: () => switchC("usa"),
                 className: () => "domrep",
                 searches: ["usa","vereinigtestaatenvonamerike","unitedstatesofamerica"]
@@ -1400,23 +1400,23 @@ const Chooser = ({subPage, setContinent, mode, gray, blur, updateGray, updateBlu
                     {search === "" && <>
                     <div className="row">
                         <HoverButton className="regionen" text={t("germany")}
-                                     image="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+                                     image="https://i.ibb.co/HpRG0bk0/Flag-of-Germany-svg.png"
                                      onClick={() => switchC("deutschland")}/>
                         <HoverButton className="regionen" text={mode === "shapes" ? "No Data" : t("austria")}
                                      icon={mode === "shapes" ? faPersonDigging : faGlobe} comingSoon={mode === "shapes"}
-                                     image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1280px-Flag_of_Austria.svg.png"
+                                     image="https://i.ibb.co/TMCbynbM/Flag-of-Austria-svg.png"
                                      onClick={() => mode === "shapes" ? "" : switchC("österreich")}/>
                         <HoverButton className="regionen" text={mode === "shapes" ? "No Data" : t("switzerland")}
                                      icon={mode === "shapes" ? faPersonDigging : faGlobe} comingSoon={mode === "shapes"}
-                                     image="https://cdn.pixabay.com/photo/2018/01/26/17/15/swiss-flag-3109178_1280.png"
+                                     image="https://i.ibb.co/JFkXq0LL/Flag-of-Switzerland-svg.png"
                                      onClick={() => mode === "shapes" ? "" : switchC("schweiz")}/>
                     </div>
                     <div className="row">
                         <HoverButton className="domrep" text={t("usa")}
-                                     image="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flag_of_the_United_States_%281863-1865%29.svg/2560px-Flag_of_the_United_States_%281863-1865%29.svg.png"
+                                     image="https://i.ibb.co/B5yhMWvp/1920px-Flag-of-the-United-States-Pantone-svg.png"
                                      onClick={() => switchC("usa")}/>
                         <HoverButton text={mode === "shapes" ? "No Data" : t("uk")}
-                                     image="https://www.nationalflaggen.de/media/29/flagge-grossbritannien.png"
+                                     image="https://i.ibb.co/pjVH9VmZ/Flag-of-the-United-Kingdom-3-5-svg.png"
                                      onClick={() => mode === "shapes" ? "" : switchC("uk")}
                                      className={(mode === "shapes" ? "red" : "") + " domrep" + " regionen"}/>
                         <HoverButton className="regionen" text={mode === "shapes" ? "No Data" : t("bavaria")}
